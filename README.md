@@ -34,3 +34,61 @@ npm install
 
 # 4. Inicie o servidor
 npm run dev
+O servidor será iniciado em: http://localhost:3000
+
+📚 Endpoints
+🎞️ Filmes
+GET /filmes
+🔎 Retorna todos os filmes disponíveis.
+
+GET /filmes/:id
+🔎 Retorna um filme específico por ID.
+
+GET /filmes/ano/:ano
+🔎 Lista os filmes lançados em determinado ano.
+
+## 📦 Exemplos de Uso da API
+
+### 🔹 Listar todos os filmes
+
+```bash
+curl http://localhost:3000/filmes
+
+Resposta:
+[
+  {
+    "id": 1,
+    "titulo": "O Poderoso Chefão",
+    "ano": 1972
+  },
+  {
+    "id": 2,
+    "titulo": "Pulp Fiction",
+    "ano": 1994
+  }
+]
+
+🔹 Buscar filme por ID
+curl http://localhost:3000/filmes/2
+Resposta:
+{
+  "id": 2,
+  "titulo": "Pulp Fiction",
+  "ano": 1994
+}
+
+🔹 Buscar filmes por ano
+curl http://localhost:3000/filmes/ano/1994
+Resposta:
+[
+  {
+    "id": 2,
+    "titulo": "Pulp Fiction",
+    "ano": 1994
+  },
+  {
+    "id": 3,
+    "titulo": "Forrest Gump",
+    "ano": 1994
+
+
