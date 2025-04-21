@@ -36,6 +36,7 @@ npm install
 npm run dev
 O servidor será iniciado em: http://localhost:3000
 
+
 📚 Endpoints
 🎞️ Filmes
 GET /filmes
@@ -50,50 +51,23 @@ GET /filmes/ano/:ano
 ## 📦 Exemplos de Uso da API
 
 ### 🔹 Listar todos os filmes
-
 ```bash
 curl http://localhost:3000/filmes
 
 Resposta:
+![image](https://github.com/user-attachments/assets/418db2df-07d6-4739-b481-9b492fe041b3)
 
-[
-  {
-    "id": 1,
-    "titulo": "O Poderoso Chefão",
-    "ano": 1972
-  },
-  {
-    "id": 2,
-    "titulo": "Pulp Fiction",
-    "ano": 1994
-  }
-]
+
 
 🔹 Buscar filme por ID
 curl http://localhost:3000/filmes/2
 
 Resposta:
 
-{
-  "id": 2,
-  "titulo": "Pulp Fiction",
-  "ano": 1994
-}
-
-🔹 Buscar filmes por ano
-curl http://localhost:3000/filmes/ano/1994
+![image](https://github.com/user-attachments/assets/10967980-c3ed-456d-a7f6-7129e856c6db)
 
 Resposta:
+![image](https://github.com/user-attachments/assets/fe48aaa9-4431-4246-9599-d215f707c542)
 
-[
-  {
-    "id": 2,
-    "titulo": "Pulp Fiction",
-    "ano": 1994
-  },
-  {
-    "id": 3,
-    "titulo": "Forrest Gump",
-    "ano": 1994
 
 
