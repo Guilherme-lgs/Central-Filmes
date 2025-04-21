@@ -55,6 +55,7 @@ GET /filmes/ano/:ano
 curl http://localhost:3000/filmes
 
 Resposta:
+
 [
   {
     "id": 1,
@@ -70,7 +71,9 @@ Resposta:
 
 🔹 Buscar filme por ID
 curl http://localhost:3000/filmes/2
+
 Resposta:
+
 {
   "id": 2,
   "titulo": "Pulp Fiction",
@@ -79,7 +82,9 @@ Resposta:
 
 🔹 Buscar filmes por ano
 curl http://localhost:3000/filmes/ano/1994
+
 Resposta:
+
 [
   {
     "id": 2,
