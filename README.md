@@ -33,12 +33,15 @@ GET /filmes/ano/:ano
 
 📦 Exemplos de Uso da API
 
+
 curl http://localhost:3000/filmes
 
 🔹 Buscar filme por ID
+
 curl http://localhost:3000/filmes/2
 
 🔹 Buscar filmes por ano
+
 curl http://localhost:3000/filmes/ano/1994
 
 
