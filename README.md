@@ -1,73 +1,56 @@
-# Central-Filmes
+Central-Filmes
+API RESTful para gerenciamento e consulta de informações sobre filmes. Permite listar todos os filmes, filtrar por ano, buscar por ID e muito mais.​
 
-# API de Filmes
+🚀 Tecnologias Utilizadas
+Node.js – Ambiente de execução JavaScript.
 
-Esta é uma API para gerenciar e consultar informações sobre filmes. A API permite listar todos os filmes, filtrar filmes por ano, buscar filmes por ID e muito mais.
+Express.js – Framework para criação de APIs.
 
-## Tecnologias Utilizadas
+Nodemon – Ferramenta para reiniciar o servidor automaticamente durante o desenvolvimento.​
 
-- **Node.js**: Ambiente de execução JavaScript.
-- **Express.js**: Framework para criação de APIs.
-- **Nodemon**: Ferramenta para reiniciar o servidor automaticamente durante o desenvolvimento.
+⚙️ Instalação
+Clone o repositório:​
 
----
+bash
+Copiar
+Editar
+git clone https://github.com/Guilherme-lgs/Central-Filmes.git
+Navegue até o diretório do projeto:​
 
-## Instalação
+bash
+Copiar
+Editar
+cd Central-Filmes
+Instale as dependências:​
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Guilherme-lgs/Central-Filmes.git
+bash
+Copiar
+Editar
+npm install
+Inicie o servidor em modo de desenvolvimento:​
 
-2. navegue até o diretório do projeto:
- ## cd api
+bash
+Copiar
+Editar
+npm run dev
+O servidor estará rodando em: http://localhost:3000​
 
-3. Instale as dependências:
- ## npm install
+📚 Endpoints da API
+🎬 Filmes
+GET /filmes​
 
- 4. inicie o server
- ##npm run dev
+Retorna todos os filmes disponíveis.​
 
-## O servidor estará rodando em http://localhost:3000.
+GET /filmes/:id​
 
-## Endpoints da API
-Filmes
-1. Listar todos os filmes
-Rota: GET /filmes
-Descrição: Retorna todos os filmes disponíveis.
+Retorna os detalhes de um filme específico pelo ID.​
 
-2. Filtrar filmes por ano
-Rota: GET /filmes/ano/:ano
-Descrição: Retorna todos os filmes lançados no ano especificado.
-Parâmetro:
-ano (obrigatório): O ano dos filmes que deseja filtrar.
+GET /filmes/ano/:ano​
 
-3. Buscar filme por ID
-Rota: GET /filmes/id/:id
-Descrição: Retorna o filme correspondente ao ID especificado.
-Parâmetro:
-id (obrigatório): O ID do filme que deseja buscar.
+Retorna os filmes lançados no ano especificado.​
 
-## Panos
-1. Filtrar filmes por ano (rota duplicada para /panos)
-Rota: GET /panos/ano/:ano
-Descrição: Retorna todos os filmes lançados no ano especificado (mesma lógica de /filmes/ano/:ano).
-Parâmetro:
-ano (obrigatório): O ano dos filmes que deseja filtrar.
 
-api/
-├── src/
-│   ├── controller/
-│   │   ├── 
-│   │   ├── 
-│   ├── data/
-│   │   ├── 
-│   ├── model/
-│   │   ├── 
-│   ├── routers/
-│   │   ├── 
-│   │   ├── 
-│   │   ├── 
-├── .gitignore
-├── 
-├── 
 
+
+📝 Licença
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
