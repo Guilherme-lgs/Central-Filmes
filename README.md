@@ -1,56 +1,36 @@
-Central-Filmes
-API RESTful para gerenciamento e consulta de informações sobre filmes. Permite listar todos os filmes, filtrar por ano, buscar por ID e muito mais.​
+<h1 align="center">🎬 Central-Filmes</h1>
 
-🚀 Tecnologias Utilizadas
-Node.js – Ambiente de execução JavaScript.
+<p align="center">
+  API RESTful para gerenciamento e consulta de informações sobre filmes.
+</p>
 
-Express.js – Framework para criação de APIs.
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nodemon-76D04B?style=for-the-badge&logo=nodemon&logoColor=white"/>
+</p>
 
-Nodemon – Ferramenta para reiniciar o servidor automaticamente durante o desenvolvimento.​
+---
 
-⚙️ Instalação
-Clone o repositório:​
+## 🚀 Tecnologias
 
-bash
-Copiar
-Editar
+- ✅ **Node.js** – Ambiente de execução JavaScript
+- ✅ **Express.js** – Framework web para criação de APIs
+- ✅ **Nodemon** – Monitoramento e reinício automático do servidor
+
+---
+
+## ⚙️ Instalação e Execução
+
+```bash
+# 1. Clone o repositório
 git clone https://github.com/Guilherme-lgs/Central-Filmes.git
-Navegue até o diretório do projeto:​
 
-bash
-Copiar
-Editar
+# 2. Acesse o diretório
 cd Central-Filmes
-Instale as dependências:​
 
-bash
-Copiar
-Editar
+# 3. Instale as dependências
 npm install
-Inicie o servidor em modo de desenvolvimento:​
 
-bash
-Copiar
-Editar
+# 4. Inicie o servidor
 npm run dev
-O servidor estará rodando em: http://localhost:3000​
-
-📚 Endpoints da API
-🎬 Filmes
-GET /filmes​
-
-Retorna todos os filmes disponíveis.​
-
-GET /filmes/:id​
-
-Retorna os detalhes de um filme específico pelo ID.​
-
-GET /filmes/ano/:ano​
-
-Retorna os filmes lançados no ano especificado.​
-
-
-
-
-📝 Licença
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
