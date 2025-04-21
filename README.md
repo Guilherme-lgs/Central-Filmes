@@ -20,6 +20,28 @@
 
 ---
 
+📚 Endpoints
+🎞️ Filmes
+GET /filmes
+🔎 Retorna todos os filmes disponíveis.
+
+GET /filmes/:id
+🔎 Retorna um filme específico por ID.
+
+GET /filmes/ano/:ano
+🔎 Lista os filmes lançados em determinado ano.
+
+📦 Exemplos de Uso da API
+
+curl http://localhost:3000/filmes
+
+🔹 Buscar filme por ID
+curl http://localhost:3000/filmes/2
+
+🔹 Buscar filmes por ano
+curl http://localhost:3000/filmes/ano/1994
+
+
 ## ⚙️ Instalação e Execução
 
 ```bash
@@ -34,16 +56,6 @@ npm install
 
 # 4. Inicie o servidor
 npm run dev
-
 O servidor será iniciado em: http://localhost:3000
 
----
-
-
-
-
-
-
-
-
-
+##
