@@ -54,20 +54,20 @@ Descrição: Retorna todos os filmes lançados no ano especificado (mesma lógic
 Parâmetro:
 ano (obrigatório): O ano dos filmes que deseja filtrar.
 
-# Estrutura do Projeto
 api/
 ├── src/
 │   ├── controller/
-│   │   ├── [filme.controller.js]
-│   │   ├── [pano.controller.js]
+│   │   ├── 
+│   │   ├── 
 │   ├── data/
-│   │   ├── [data.js]
+│   │   ├── 
 │   ├── model/
-│   │   ├── [filmes.model.js]
+│   │   ├── 
 │   ├── routers/
-│   │   ├── [filmes.routes.js]
-│   │   ├── [Pano.routes.js]
-│   │   ├── [Pid.routes.js]
+│   │   ├── 
+│   │   ├── 
+│   │   ├── 
 ├── .gitignore
-├── [package.json]
-├── [server.js]
+├── 
+├── 
+
